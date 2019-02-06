@@ -1,10 +1,16 @@
+// import .env
+require('dotenv').config()
+var port = 80
+if (process.env.PORT != undefined) {
+    port = process.env.PORT
+}
+
 // requires
 var express = require('express')
 var nhentai = require('nhentai-js')
 
 // user config area
 var spaces = 4
-var port = 8080
 
 // init express
 var app = express()

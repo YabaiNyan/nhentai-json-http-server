@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/YabaiNyan/nhentai-json-http-server#readme",
   "dependencies": {
+    "dotenv": "^6.2.0",
     "express": "^4.16.4",
     "nhentai-js": "^1.4.0"
   }
