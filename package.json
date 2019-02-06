@@ -1,0 +1,23 @@
+{
+  "name": "nhentai-json-http-server",
+  "version": "1.0.0",
+  "description": "http server that parses the output of nhentai-js via json",
+  "main": "njhs.js",
+  "scripts": {
+    "test": "node njhs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YabaiNyan/nhentai-json-http-server.git"
+  },
+  "author": "YabaiNyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YabaiNyan/nhentai-json-http-server/issues"
+  },
+  "homepage": "https://github.com/YabaiNyan/nhentai-json-http-server#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nhentai-js": "^1.4.0"
+  }
+}
