@@ -16,7 +16,7 @@ var spaces = 4
 var app = express()
 
 // configure spaces in json file
-app.set('json spaces', spaces);
+app.set('json spaces', spaces)
 
 // respond bad request if nothing is specified
 app.get('/', function (req, res) {
@@ -32,7 +32,7 @@ app.get('/:bookId', function (req, res) {
             if(exists){
                 nhentai.getDoujin(bookId)
                     .then((nhObj) => {
-                        res.json(nhObj);
+                        res.json(nhObj)
                     })
             }else{
                 res.status(404)
