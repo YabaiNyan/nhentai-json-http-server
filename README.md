@@ -10,8 +10,8 @@ Installation
 
 Usage
 =====
-The server can be access by goint to
-http://(your server):(port)/(nhentai book id)
+The server can be access by goint to</br>
+`http://(your server):(port)/(nhentai book id)`</br>
 The json object will be parsed directly from [nhentai-js](https://www.npmjs.com/package/nhentai-js).
 
 Example json response
